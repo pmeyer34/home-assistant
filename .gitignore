@@ -1,4 +1,0 @@
-# For projects that use the Waf build system: https://waf.io/
-!.gitignore
-secrets.yaml
-known_devices.yaml
