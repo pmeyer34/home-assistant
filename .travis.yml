@@ -11,5 +11,5 @@ install:
 script:
   - hass -c . --script check_config
 notifications:
-  email: false
+  email: change
 
