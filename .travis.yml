@@ -1,4 +1,7 @@
+env:
+  - OS_TYPE=centos 
 language: python
+cache: pip
 python:
   - "3.6"
 before_install:
@@ -7,3 +10,6 @@ install:
   - pip3 install homeassistant
 script:
   - hass -c . --script check_config
+notifications:
+  email: false
+
