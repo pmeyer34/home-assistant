@@ -24,8 +24,8 @@ config:
   http:
     base_url: homeassistant.stufu.org:443
     api_password: !secret api_password
-    ssl_certificate: /etc/letsencrypt/live/stufu.org/fullchain.pem
-    ssl_key: /etc/letsencrypt/live/stufu.org/privkey.pem
+#    ssl_certificate: /etc/letsencrypt/live/stufu.org/fullchain.pem
+#   ssl_key: /etc/letsencrypt/live/stufu.org/privkey.pem
 
 # Checks for available updates
 # Note: This component will send some information about your system to
