@@ -21,8 +21,6 @@ frontend:
 
 # Enables configuration UI
 config:
-
-# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
   http:
     base_url: homeassistant.stufu.org:443
     api_password: !secret api_password
@@ -72,6 +70,6 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 
 
-ifttt:
-  key: !secret ifttt
+#ifttt:
+#  key: !secret ifttt
 
